@@ -87,7 +87,6 @@ else:
 #Check passenger's ticket and
 #check the ticket for passenger
 check_ticket = input("Input the result of ticket-checking (Y/N): ").strip().upper()
-
 check_packages = ""
 if check_ticket == "Y":
     check_packages =  input("Input the result of packages-checking (Y/N): ").strip().upper()
