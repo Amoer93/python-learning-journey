@@ -71,7 +71,7 @@ if not varify_result:
     print("Not employer in this company")
 else:
     print("Employer in this company")
-"""
+
 # if elif practices by using scenario of girlfriend present.
 holiday = input("Please input the option of Holiday (A/B/C): ")
 
@@ -83,3 +83,17 @@ elif holiday == "C":
     print("Buy strawberry")
 else:
     print("everything is ok!")
+"""
+#Check passenger's ticket and
+#check the ticket for passenger
+check_ticket = input("Input the result of ticket-checking (Y/N): ").strip().upper()
+
+check_packages = ""
+if check_ticket == "Y":
+    check_packages =  input("Input the result of packages-checking (Y/N): ").strip().upper()
+    if check_packages == "Y":
+        print("Keep going!")
+    else:
+        print("Go back!")
+else:
+    print("Go back!")
