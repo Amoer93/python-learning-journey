@@ -86,9 +86,8 @@ else:
 """
 #Check passenger's ticket and
 #check the ticket for passenger
-check_ticket = input("Input the result of ticket-checking (Y/N): ").strip().upper()
-check_packages = ""
-if check_ticket == "Y":
+check_ticket = input("Input the result of ticket-checking (True(1)/False(0)): ").strip().upper()
+if check_ticket == "1":
     check_packages =  input("Input the result of packages-checking (Y/N): ").strip().upper()
     if check_packages == "Y":
         print("Keep going!")
