@@ -1,4 +1,8 @@
 def Multiplication_Table(input_number = None):
+    '''
+    :param input_number:
+    :return:
+    '''
     input_number = int(input("Please enter the numbers you wish to multiply: "))
     print(f"This is a {input_number} * {input_number} \"Multiplication Table\"")
     row_1 = 1
@@ -13,6 +17,10 @@ def Multiplication_Table(input_number = None):
         row_1 += 1
 
 def Say_hello(input_number = None):
+    '''
+    :param input_number:
+    :return:
+    '''
     times_hello = 0
     helloed_times_number = 0
     input_number = int(input("please enter a number: "))
