@@ -1,8 +1,9 @@
-def Multiplication_Table(numbers):
-    print("This is a 9 * 9 \"Multiplication Table\"")
+def Multiplication_Table(input_number = None):
+    input_number = int(input("Please enter the numbers you wish to multiply: "))
+    print(f"This is a {input_number} * {input_number} \"Multiplication Table\"")
     row_1 = 1
     col_1 = 1
-    while row_1 <= numbers:
+    while row_1 <= input_number:
         col_1 = 1
         print(f"{col_1} * {col_1} = {col_1 * col_1}",end = "\t")
         while col_1 < row_1:
@@ -10,4 +11,13 @@ def Multiplication_Table(numbers):
             col_1 += 1
         print("")
         row_1 += 1
-Multiplication_Table(3)
+
+def Say_hello(input_number = None):
+    times_hello = 0
+    helloed_times_number = 0
+    input_number = int(input("please enter a number: "))
+    while times_hello < input_number:
+        print("Hello World")
+        helloed_times_number += 1
+        print(f"This is the {helloed_times_number} times say hello")
+        times_hello += 1
