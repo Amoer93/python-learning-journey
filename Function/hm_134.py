@@ -29,3 +29,7 @@ def Say_hello(input_number = None):
         helloed_times_number += 1
         print(f"This is the {helloed_times_number} times say hello")
         times_hello += 1
+
+def add(num1, num2): # num1, num2 are parameter
+    result = num1 + num2
+    print(f"The sum of {num1} and {num2} is {result}")
