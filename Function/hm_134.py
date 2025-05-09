@@ -30,6 +30,14 @@ def Say_hello(input_number = None):
         print(f"This is the {helloed_times_number} times say hello")
         times_hello += 1
 
-def add(num1, num2): # num1, num2 are parameter
+def add_print(num1, num2): # num1, num2 are parameter
     result = num1 + num2
     print(f"The sum of {num1} and {num2} is {result}")
+
+def add_return(num1, num2):
+    '''
+    对函数结果进行返回，但是需要使用变量接受计算结果
+    '''# num1, num2 are parameter
+    result = num1 + num2
+    return result
+    result_2 = num1 * num2 # after return, code will be missing
