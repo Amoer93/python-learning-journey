@@ -18,3 +18,7 @@ name_list[1] = "Harry"
 print(name_list[1])
 name_list.insert(1,"Honey")
 print(name_list[1])
+
+temp_list = ["Zhangsan","Lisi","Wangwu"]
+name_list.extend(temp_list) #extend can adding other list into the end of this list
+print(name_list)
