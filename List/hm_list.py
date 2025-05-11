@@ -38,3 +38,14 @@ del name_list[1]
 print(name_list)
 
 print(f"the list contain {len(name_list)} items") # len can calculate the count of the list
+name_list.append("Harry")
+
+print(name_list.count("Harry"))
+
+name_list.remove("Harry")
+print(name_list.count("Harry"))
+
+name_list.sort()
+print(name_list)
+name_list.reverse()
+print(name_list)
