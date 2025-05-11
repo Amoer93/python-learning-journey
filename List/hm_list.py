@@ -22,3 +22,19 @@ print(name_list[1])
 temp_list = ["Zhangsan","Lisi","Wangwu"]
 name_list.extend(temp_list) #extend can adding other list into the end of this list
 print(name_list)
+
+temp_list.remove("Wangwu") # remove method
+print(temp_list)
+temp_list.pop(0) # pop method
+print(temp_list)
+
+name_list.pop()
+print(name_list)
+
+temp_list.clear()
+print(temp_list)
+
+del name_list[1]
+print(name_list)
+
+print(f"the list contain {len(name_list)} items") # len can calculate the count of the list
