@@ -49,3 +49,9 @@ name_list.sort()
 print(name_list)
 name_list.reverse()
 print(name_list)
+
+number_list = [1,2,3,4,5,6,7,8,9]
+number_list.sort()
+print(number_list)
+number_list.sort(reverse=True)
+print(number_list)
