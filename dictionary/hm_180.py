@@ -26,4 +26,15 @@ print(xiaoming)
 for k in xiaoming:
     print(f"{k} is {xiaoming[k]}")
 
+#用一个list装下多个dir
+
+lining = {"name" : "Lining",
+          "age" : 18,
+          "gender" : "Male",
+          "weight" : 70,
+          "height" : 180}
+print(lining)
+
+card = [xiaoming,lining]
+print(card)
 
