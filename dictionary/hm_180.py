@@ -26,3 +26,4 @@ print(xiaoming)
 for k in xiaoming:
     print(f"{k} is {xiaoming[k]}")
 
+
