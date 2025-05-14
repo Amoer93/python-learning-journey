@@ -21,4 +21,8 @@ print(xiaoming)
 #删除，用pop，如果删除的key不存在，会error
 xiaoming.pop("gender")
 print(xiaoming)
-#
+
+#用for遍历所有的key和value
+for k in xiaoming:
+    print(f"{k} is {xiaoming[k]}")
+
