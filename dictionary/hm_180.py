@@ -21,3 +21,4 @@ print(xiaoming)
 #删除，用pop，如果删除的key不存在，会error
 xiaoming.pop("gender")
 print(xiaoming)
+#
