@@ -20,4 +20,20 @@ print(str1.count("的"))
 print(str1.index("的"))
 
 #可调用的功能
-str1.
+
+
+#字符串是否只包含空白字符？
+str2 = '我 喜欢吃西柚\n'
+str3 = "    "
+print(str3.isspace())
+print(str2.isspace())
+
+#判断字符串是否只有数字
+
+str4 = "1.1"
+str5 = "\u00b2"
+print(str5)
+print(str4.isdigit())
+print(str4.isnumeric())
+print(str4.isdigit())
+
