@@ -1,6 +1,8 @@
 #字符串定义，遇到需要增加特殊字符，可以用\+字符来实现
 from itertools import count
 
+"""
+
 str1 = "我的名字是\"大的西瓜\""
 print(str1)
 key =str1[5]
@@ -36,4 +38,13 @@ print(str5)
 print(str4.isdigit())
 print(str4.isnumeric())
 print(str4.isdigit())
+ 
+ """
+poem = ["today is today",
+        "tomorrow is tomorrow",
+        "do not leave thing",
+        "entil tomorrow"]
 
+
+for poem_string in poem:
+    print("|%s|" % poem_string.center(25," "))
